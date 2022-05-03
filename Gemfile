@@ -8,6 +8,7 @@ group :test do
   gem 'simplecov-console', require: false
   gem 'capybara'
   gem 'webrick'
+  gem 'pg'
 end
 
 group :development, :test do
